@@ -41,6 +41,7 @@ export const {
   decreaseItemquantity,
   clearCart,
 } = cartSlice.actions;
+
 export default cartSlice.reducer;
 
 // NOTE: having these selector functions like in larger apps will cause perfomance issues so we can use 'reselect' library for these.
